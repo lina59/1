@@ -20,13 +20,13 @@ P.S. Ноль 0 – считается числом, не останавлива
 */
 function sumInput(){
     let numbers=[];
-    
+    let sum=0;
     while (true){
         let value=prompt ("Введите число");
         if (value === "" || value === null|| !isFinite(value)) break;
         numbers.push(+value);    
     }
-    let sum=0;
+    
     for(let number of numbers) {
         sum += number;
       }
