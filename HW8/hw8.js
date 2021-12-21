@@ -65,6 +65,13 @@ console.log( users );
   
   let arr = [1, 2, 3];
   shuffle(arr);
+  console.log(arr);*/
+function shuffle(array) {
+    array.sort(() => Math.random()-0,5); //?
+  }
+  
+  let arr = [1, 2, 3];
+  shuffle(arr);
   console.log(arr);
 
 /*6. Напишите функцию getAverageAge(users), которая принимает массив объектов со свойством age и возвращает средний возраст.
