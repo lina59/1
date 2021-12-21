@@ -60,7 +60,7 @@ console.log( users );
 Многократные прогоны через shuffle могут привести к разным последовательностям элементов. 
 */
 /*function shuffle(array) {
-    array.sort(() => Math.random() - 0.5);
+    array.sort(() =>  ); //?
   }
   
   let arr = [1, 2, 3];
