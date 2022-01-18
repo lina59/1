@@ -1,0 +1,28 @@
+p {
+    background-color: #900c3f;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    color:#ffc305
+    
+    
+  }
+
+p1 {
+    color:#ffc305
+  }
+
+  #inputMeters {
+    display: block;
+    padding: 5px;
+    border: 4px solid #900c3f;
+    border-radius: 5px;
+}
+ 
+body {  background:#581845
+
+}
+
+h2{
+    color:#ffc305  
+}

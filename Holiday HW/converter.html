@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Converter</title>
+    <link  rel="stylesheet"  href="converter.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+</head>
+<body>
+    <h2>Пребразование длины метра в другие единицы измерения</h2>
+    <p1>Введите в поле значение (в метах), чтобы преобразовать в другие единицы </p1>
+    
+    <input id="inputMeters" type="number" placeholder="Метры" oninput="LengthConverter(this.value)" 
+    onchange="LengthConverter(this.value)">
+
+
+<p>Километры: <span id="outputKilometers"></span></p>
+<p>Дециметр: <span id="outputdc"></span></p>
+<p>Сантиметры: <span id="outputcm"></span></p>
+<p>Миллиметры: <span id="outputmm"></span></p>
+<p>Футы: <span id="outputFeet"></span></p>
+<p>Дюймы: <span id="outputInches"></span></p>
+    
+    <script src="converter.js"></script>
+     
+    
+</body>
+</html>
