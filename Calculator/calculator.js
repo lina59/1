@@ -2,7 +2,7 @@ const display1 = document.querySelector(".display-1");
 const display2 = document.querySelector(".display-2");
 const tempResult = document.querySelector(".temp-result");
  
-const numders = document.querySelectorAll(".buttons");
+const numbers = document.querySelectorAll(".number");
 const operations = document.querySelectorAll(".operation");
 
 const equalBtn = document.querySelector(".equal")
@@ -16,7 +16,7 @@ let result = null;
 let lastOperation = "";
 let haveDot = false;
 
-numders.forEach((number =>{
+numbers.forEach((number =>{
     number.addEventListener("click", (e) => {
         if (e.target.innerText === '.' && !haveDot){
             haveDot = true;
